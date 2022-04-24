@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+:root{
+    --first-color: #191919;
+    --secondary-color: #F5C400;
+    --body-color: white;
+    --body-font: 'Poppins', sans-serif;
+
+    /*========== Font weight ==========*/
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --font-bold: 700;
+    --font-extra-bold: 800;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: var(--body-color);
+}
+
+h1,h2,h3,h4 {
+    font-weight: var(--font-semi-bold);
+}
+
+
+/*==========Navegação==========*/
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.596);
+    z-index: 9999;
+    border-bottom: 2px solid var(--secondary-color);
+}
+.nav-link{
+    color: var(--secondary-color);
+    font-size: 1.4rem;
+}
+.nav-link:hover{
+    color: white;
+}
+
+.fa-bars{
+    color: var(--secondary-color);
+    font-size: 40px;
+}
+.navbar-nav{
+    text-align: center;
+}
+
+.navbar img{
+    width: 200px;
+}
+
+/*==========Hero==========*/
+#painel{
+    background-image: url("../img/bg-home-top.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#painel h1{
+    color: white;
+    font-size: 5rem;
+}
+#painel h3{
+    color: var(--secondary-color);
+}
+
+#painel button{
+    background-color: var(--secondary-color);
+    color: var(--first-color);
+    padding: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 5px;
+    border: 2px solid white;
+    font-weight: var(--font-semi-bold);
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+
+
+
+
+/* Sem media query para `xs`, já que este é o padrão, no Bootstrap.*/
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
+@media (min-width: 576px) {
+    
+}
+
+/*Dispositivos médios (tablets com 768px ou mais)*/
+@media (min-width: 768px) {
+
+}
+
+/* Dispositivos large (desktops com 992px ou mais)*/
+@media (min-width: 992px) {
+    /*==========Hero==========*/
+    #painel h1{
+        font-size: 6rem;
+    }
+}
+
+/* Dispositivos extra large (desktops grandes com 1200px ou mais)*/
+@media (min-width: 1200px) {
+    
+}
