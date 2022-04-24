@@ -93,6 +93,40 @@ header{
 }
 
 
+/*==========Pick==========*/
+#pick{
+    background-color: var(--first-color);
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#pick h2{
+    margin-bottom: 20px;
+}
+.card{
+    background-color: transparent !important;
+    color: white;
+    border: none !important;
+}
+.card-head{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pick-head{
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
 
 
 
@@ -104,7 +138,16 @@ header{
 
 /*Dispositivos médios (tablets com 768px ou mais)*/
 @media (min-width: 768px) {
-
+    /*==========Pick==========*/
+    #pick{
+        background-image: url("../img/bg-pick.png");
+        background-position: center;
+        background-attachment: cover;
+        background-repeat: no-repeat;
+    }
+    .pick-head{
+        background-color: var(--first-color);
+    }
 }
 
 /* Dispositivos large (desktops com 992px ou mais)*/
