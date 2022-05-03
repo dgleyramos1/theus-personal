@@ -36,6 +36,7 @@ header{
     top: 0px;
     left: 0px;
     width: 100%;
+<<<<<<< HEAD
     background-color: rgba(255, 255, 255, 0.596);
     z-index: 9999;
     border-bottom: 2px solid var(--secondary-color);
@@ -43,12 +44,23 @@ header{
 .nav-link{
     color: var(--first-color);
     font-size: 1.4rem;
+=======
+    z-index: 9999;
+    border: 1px solid var(--secondary-color);
+    background-color: rgba(255, 255, 255, 0.363);
+}
+.nav-link{
+    color: white;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+>>>>>>> 7ad2ecc (About criado)
 }
 .nav-link:hover{
     color: var(--secondary-color);
 }
 
 .fa-bars{
+<<<<<<< HEAD
     color: var(--secondary-color);
     font-size: 40px;
 }
@@ -151,17 +163,185 @@ header{
 .border-caixa p{
     margin-bottom: -5px;
 }
+=======
+    color: white;
+    font-size: 40px;
+    z-index: 9999;
+}
+.navbar-collapse {
+    background: #f8f9fa14;
+    text-align: right;
+    transition: 300ms;
+}
+
+.navbar img{
+    width: 140px;
+}
+
+
+/*========TOPO========*/
+#topo{
+    height: 100vh;
+    background-image: url("../img/bg-home-top.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+.topo__info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 50px;
+}
+.topo__info hr{
+    width: 100px;
+    border: 1px solid var(--secondary-color);
+    margin-left: 0;
+}
+.topo__info h1{
+    font-size: 1.5rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.topo__info h1 span{
+    color: var(--secondary-color);
+}
+.topo__info h2{
+    font-size: 4rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.texto{
+    font-weight: bold;
+    z-index: 1;
+    position: absolute;
+}
+.topo__info .texto{
+    font-size: 3.5rem;
+    top: 155px;;
+}
+.topo__info h4{
+    color: white;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.efeitoSkew{
+    margin-left: 36px;
+    background-color: var(--secondary-color);
+    transform: skew(-53deg);
+    -webkit-transform: skew(-53deg);
+    -moz-transform: skew(-53deg);
+}
+
+.topo__info .efeitoSkew{
+    width: 180px;
+    height: 65px;
+}
+
+.topo__info .contact{
+    padding: 10px 20px;
+    color: white;
+    margin-top: 15px;
+    border: 1px solid var(--secondary-color);
+    border-collapse: collapse;
+}
+
+
+/*========ABOUT========*/
+#about{
+    background-image: url("../img/bg-about.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.about__info{
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.about__info--box{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;  
+    color: white;  
+}
+.about__info h4{
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+}
+.about__info p{
+    font-size: 16px;
+    text-align: justify;
+}
+.about__info .efeitoSkew{
+    height: 40px;
+    width: 130px;
+    margin-left: 20px;
+}
+.about__imagem img{
+    width: 100%;
+}
+
+>>>>>>> 7ad2ecc (About criado)
 
 
 
 /* Sem media query para `xs`, já que este é o padrão, no Bootstrap.*/
 /* Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
 @media (min-width: 576px) {
+<<<<<<< HEAD
+=======
+
+    .navbar img{
+        width: 160px;
+    }
+    /*========TOPO========*/
+    #topo{
+        padding-top: 100px;
+        height: 750px;
+    }
+    .topo__info{
+        margin-top: 100px;
+    }
+    .topo__info h1{
+        font-size: 2.5rem;
+    }
+    .topo__info h2{
+        font-size: 5.5rem;
+    }
+    .topo__info .texto{
+        font-size: 4.5rem;
+        top: 190px;
+    }
+    .topo__info h4{
+        font-size: 30px;
+        margin-top: 45px;
+    }
+    .topo__info .efeitoSkew{
+        width: 260px;
+        height: 70px;
+    }
+
+>>>>>>> 7ad2ecc (About criado)
     
 }
 
 /*Dispositivos médios (tablets com 768px ou mais)*/
 @media (min-width: 768px) {
+<<<<<<< HEAD
     /*==========Pick==========*/
     #pick{
         background-image: url("../img/bg-pick.png");
@@ -174,11 +354,58 @@ header{
     }
 
     
+=======
+    .navbar img{
+        width: 180px;
+    }
+    /*========TOPO========*/
+    #topo{
+        padding-top: 0;
+        height: 800px;
+    }
+    .topo__info{
+        margin-top: 190px;
+    }
+    .topo__info h1{
+        font-size: 3.5rem;
+    }
+    .topo__info h2{
+        font-size: 8rem;
+    }
+    .topo__info .texto{
+        font-size: 7.5rem;
+        top: 240px;
+    }
+    .topo__info h4{
+        margin-top: 60px;
+    }
+    .topo__info .efeitoSkew{
+        width: 450px;
+        height: 100px;
+    }    
+
+    /*========ABOUT========*/
+    #about{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+    .about__info{
+        order: 2;
+    }
+    .about__info--box{
+        align-items: flex-start;
+    }
+    .about__imagem img{
+        height: 100%;
+    }
+>>>>>>> 7ad2ecc (About criado)
 
 }
 
 /* Dispositivos large (desktops com 992px ou mais)*/
 @media (min-width: 992px) {
+<<<<<<< HEAD
     /*==========Hero==========*/
     #painel h1{
         font-size: 6rem;
@@ -187,10 +414,52 @@ header{
     /*==========Abou==========*/
     #about{
         background-position: center top;
+=======
+    .navbar img{
+        width: 200px;
+    }
+    .navbar-collapse {
+        background: transparent;
+    }
+    /*========TOPO========*/
+    #topo{
+        padding-top: 0;
+        height: 800px;
+        padding-bottom: 50px;
+    }
+    .topo__info{
+        margin-top: 0;
+    }
+
+    /*========ABOUT========*/
+    .about__info--box h4{
+        text-align: left;
+>>>>>>> 7ad2ecc (About criado)
     }
 }
 
 /* Dispositivos extra large (desktops grandes com 1200px ou mais)*/
 @media (min-width: 1200px) {
+<<<<<<< HEAD
     
 }
+=======
+    /*========TOPO========*/
+    .topo__info{
+        margin-top: 240px;
+    }
+
+    /*========ABOUT========*/
+    .about__info{
+        display: flex;
+        align-items: center;
+    }
+    .about__imagem img{
+        height: 80%;
+    }
+    .about__imagem{
+        display: flex;
+        align-items: center;
+    }
+}
+>>>>>>> 7ad2ecc (About criado)
