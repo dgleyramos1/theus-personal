@@ -36,15 +36,6 @@ header{
     top: 0px;
     left: 0px;
     width: 100%;
-<<<<<<< HEAD
-    background-color: rgba(255, 255, 255, 0.596);
-    z-index: 9999;
-    border-bottom: 2px solid var(--secondary-color);
-}
-.nav-link{
-    color: var(--first-color);
-    font-size: 1.4rem;
-=======
     z-index: 9999;
     border: 1px solid var(--secondary-color);
     background-color: rgba(255, 255, 255, 0.363);
@@ -53,117 +44,12 @@ header{
     color: white;
     font-size: 1.4rem;
     text-transform: uppercase;
->>>>>>> 7ad2ecc (About criado)
 }
 .nav-link:hover{
     color: var(--secondary-color);
 }
 
 .fa-bars{
-<<<<<<< HEAD
-    color: var(--secondary-color);
-    font-size: 40px;
-}
-.navbar-nav{
-    text-align: center;
-}
-
-.navbar img{
-    width: 200px;
-}
-
-/*==========Hero==========*/
-#painel{
-    background-image: url("../img/bg-home-top.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: cover;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-}
-
-#painel h1{
-    color: white;
-    font-size: 4rem;
-}
-#painel h3{
-    color: var(--secondary-color);
-}
-
-#painel button{
-    background-color: var(--secondary-color);
-    color: var(--first-color);
-    padding: 10px;
-    padding-right: 25px;
-    padding-left: 25px;
-    border-radius: 5px;
-    border: 2px solid white;
-    font-weight: var(--font-semi-bold);
-    font-size: 1.5rem;
-    margin-top: 20px;
-}
-
-
-/*==========Pick==========*/
-#pick{
-    background-color: var(--first-color);
-    color: white;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-#pick h2{
-    margin-bottom: 20px;
-}
-.card{
-    background-color: transparent !important;
-    color: white;
-    border: none !important;
-}
-.card-head{
-    height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.pick-head{
-    color: white;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 2px solid var(--secondary-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-}
-
-
-/*==========Abou==========*/
-#about{
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-image: url("../img/bg-about.png");
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-attachment: cover;
-}
-
-.border-caixa{
-    border: 2px solid white;
-    width: auto;
-    color: white;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-.border-caixa p{
-    margin-bottom: -5px;
-}
-=======
     color: white;
     font-size: 40px;
     z-index: 9999;
@@ -295,76 +181,12 @@ header{
     width: 100%;
 }
 
-<<<<<<< HEAD
->>>>>>> 7ad2ecc (About criado)
-=======
-/*==========Pick==========*/
-#pick{
-    background-color: var(--first-color);
-    color: white;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-#pick h2{
-    margin-bottom: 20px;
-}
-.card{
-    background-color: transparent !important;
-    color: white;
-    border: none !important;
-}
-.card-head{
-    height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.pick-head{
-    color: white;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 2px solid var(--secondary-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-}
-
->>>>>>> 10cc74b (Criada a seção pick)
-
-/*==========Abou==========*/
-#about{
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-image: url("../img/bg-about.png");
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-attachment: cover;
-}
-
-.border-caixa{
-    border: 2px solid white;
-    width: auto;
-    color: white;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-.border-caixa p{
-    margin-bottom: -5px;
-}
 
 
 
 /* Sem media query para `xs`, já que este é o padrão, no Bootstrap.*/
 /* Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
 @media (min-width: 576px) {
-<<<<<<< HEAD
-=======
 
     .navbar img{
         width: 160px;
@@ -396,26 +218,11 @@ header{
         height: 70px;
     }
 
->>>>>>> 7ad2ecc (About criado)
     
 }
 
 /*Dispositivos médios (tablets com 768px ou mais)*/
 @media (min-width: 768px) {
-<<<<<<< HEAD
-    /*==========Pick==========*/
-    #pick{
-        background-image: url("../img/bg-pick.png");
-        background-position: center;
-        background-attachment: cover;
-        background-repeat: no-repeat;
-    }
-    .pick-head{
-        background-color: var(--first-color);
-    }
-
-    
-=======
     .navbar img{
         width: 180px;
     }
@@ -460,22 +267,11 @@ header{
     .about__imagem img{
         height: 100%;
     }
->>>>>>> 7ad2ecc (About criado)
 
 }
 
 /* Dispositivos large (desktops com 992px ou mais)*/
 @media (min-width: 992px) {
-<<<<<<< HEAD
-    /*==========Hero==========*/
-    #painel h1{
-        font-size: 6rem;
-    }
-
-    /*==========Abou==========*/
-    #about{
-        background-position: center top;
-=======
     .navbar img{
         width: 200px;
     }
@@ -495,21 +291,11 @@ header{
     /*========ABOUT========*/
     .about__info--box h4{
         text-align: left;
->>>>>>> 7ad2ecc (About criado)
-    }
-
-    /*==========Abou==========*/
-    #about{
-        background-position: center top;
     }
 }
 
 /* Dispositivos extra large (desktops grandes com 1200px ou mais)*/
 @media (min-width: 1200px) {
-<<<<<<< HEAD
-    
-}
-=======
     /*========TOPO========*/
     .topo__info{
         margin-top: 240px;
@@ -528,4 +314,3 @@ header{
         align-items: center;
     }
 }
->>>>>>> 7ad2ecc (About criado)
