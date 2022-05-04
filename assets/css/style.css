@@ -181,8 +181,68 @@ header{
     width: 100%;
 }
 
+/*========TRAINING========*/
+#training{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.training__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.training__title .efeitoSkew{
+    height: 40px;
+    width: 130px;
+    margin-left: 20px;
+}
 
-
+.training__box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    column-gap: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.training__card{
+    display: flex;
+    flex-direction: column;
+}
+.training__card p{
+    font-size: 12px;
+}
+.training__card .texto{
+    font-size: 15px;
+}
+.training__card .efeitoSkew{
+    height: 20px;
+    width: 50px;
+    margin-left: 10px;
+}
+.card--four .efeitoSkew{
+    width: 85px;
+}
+.training__imagem img{
+    width: 100%;
+}
+.card--one{
+    text-align: right;
+    align-items: flex-end;
+}
+.card--two{
+    text-align: left;
+    align-items: flex-start;
+}
+.card--three{
+    text-align: right;
+    align-items: flex-end;
+}
+.card--four{
+    text-align: left;
+    align-items: flex-start;
+}
+ 
 
 /* Sem media query para `xs`, já que este é o padrão, no Bootstrap.*/
 /* Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
@@ -268,6 +328,27 @@ header{
         height: 100%;
     }
 
+
+    /*========TRAINING========*/
+
+    .training__box{
+        flex-direction: column;
+    }
+
+    .training__imagem{
+        display: flex;
+        align-items: center;
+    }
+    
+    .card--two{
+        text-align: right;
+        align-items: flex-end;  
+    }
+    .card--three{
+        text-align: left;
+        align-items: flex-start;
+    }
+
 }
 
 /* Dispositivos large (desktops com 992px ou mais)*/
@@ -291,6 +372,26 @@ header{
     /*========ABOUT========*/
     .about__info--box h4{
         text-align: left;
+    }
+
+    /*========TRAINING========*/
+    .rowTwo{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .training__imagem{
+        display: block;
+    }
+    .training__imagem img{
+        height: 80%;
+    }
+
+    .training__box{
+        flex-direction: column;
+    }
+    .ajustar{
+        display: flex;
     }
 }
 
