@@ -37,12 +37,12 @@ header{
     left: 0px;
     width: 100%;
     z-index: 9999;
-    border: 1px solid var(--secondary-color);
-    background-color: rgba(255, 255, 255, 0.363);
+    border-bottom: 1px solid var(--secondary-color);
+    background-color: white;
 }
 .nav-link{
-    color: white;
-    font-size: 1.4rem;
+    color: var(--first-color);
+    font-size: 1.1rem;
     text-transform: uppercase;
 }
 .nav-link:hover{
@@ -50,7 +50,7 @@ header{
 }
 
 .fa-bars{
-    color: white;
+    color: var(--first-color);
     font-size: 40px;
     z-index: 9999;
 }
@@ -139,6 +139,7 @@ header{
     margin-top: 15px;
     border: 1px solid var(--secondary-color);
     border-collapse: collapse;
+    background-color: var(--secondary-color);
 }
 
 
@@ -359,6 +360,9 @@ header{
     .navbar-collapse {
         background: transparent;
     }
+    .navbar-expand-lg {
+        padding: 10px 0px !important;
+    }
     /*========TOPO========*/
     #topo{
         padding-top: 0;
@@ -372,6 +376,9 @@ header{
     /*========ABOUT========*/
     .about__info--box h4{
         text-align: left;
+    }
+    #about{
+        background-position: top;
     }
 
     /*========TRAINING========*/
