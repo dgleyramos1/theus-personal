@@ -314,6 +314,91 @@ header{
     list-style: url("../img/check-white.png");
 }
  
+/*========CONTACT========*/
+#contact{
+    background: url("../img/bg-contact.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    padding: 30px 0;
+}
+.contact__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 350px;
+    color: white;
+}
+.contact__title .efeitoSkew{
+    height: 40px;
+    width: 140px;
+    margin-left: 20px;
+}
+.contact__title hr{
+    width: 40px;
+    border: 1px solid var(--secondary-color);
+    margin-left: 0;
+}
+.contacts ul{
+    list-style: none;
+    padding: 0px;
+}
+.follow{
+    margin-bottom: 10px;
+}
+.follow h4 span{
+    color: var(--secondary-color);
+}
+.follow ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+}
+.follow ul li{
+    background-color: white;
+}
+.follow ul li a{
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    transition: all 0.5s;
+}
+.follow ul li a:hover{
+    color: white;
+    background-color: var(--secondary-color);
+}
+.follow ul li a i{
+    font-size: 20px;
+}
+
+.contact__form h2{
+    color: white;
+    margin-bottom: 30px;
+}
+.contact__form span{
+    color: var(--secondary-color);
+}
+
+
+.form__button{
+    background-color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    color: var(--first-color);
+    transition: all 0.5s;
+    margin-top: 10px;
+}
+.form__button:hover{
+    background-color: var(--first-color);
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+}
+
+
 
 /* Sem media query para `xs`, já que este é o padrão, no Bootstrap.*/
 /* Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
@@ -493,6 +578,18 @@ header{
     }
     .card--laterais:last-child{
         margin-left: -30px;
+    }
+
+    /*========CONTACT========*/
+    #contact{
+        margin-top: 30px;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #contact .row{
+        height: 60%;
     }
 }
 
