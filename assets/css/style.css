@@ -383,8 +383,6 @@ header{
 .contact__form span{
     color: var(--secondary-color);
 }
-
-
 .form__button{
     background-color: var(--secondary-color);
     border: 1px solid var(--secondary-color);
@@ -398,6 +396,24 @@ header{
     border: 1px solid var(--secondary-color);
 }
 
+/*========FOOTER========*/
+footer{
+    background-color: var(--first-color);
+}
+footer div{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+footer span{
+    color: var(--secondary-color);
+}
 
 
 /* Sem media query para `xs`, já que este é o padrão, no Bootstrap.*/
