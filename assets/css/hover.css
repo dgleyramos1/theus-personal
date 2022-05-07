@@ -40,3 +40,34 @@
     transform: translateY(5px);
 /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }
+
+/* Underline From Center */
+.underline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(255, 255, 255, 0);
+    position: relative;
+    overflow: hidden;
+}
+.underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: #F5C400;
+    height: 1px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.underline-from-center:hover:before, .underline-from-center:focus:before, .underline-from-center:active:before {
+    left: 0;
+    right: 0;
+}
